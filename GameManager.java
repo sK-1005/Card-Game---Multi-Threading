@@ -24,31 +24,9 @@ class GameManager extends Thread
         }
 
 public void run() 
-{ Player round_Winner,game_Winner;
-/* Please make a note 
-    ** use the predefined described functions as much possible
-    ** zero  marks will be awarded if you modified the code or declared varriable 
-   You have to write the code to perform the following tasks in sequential manner
-    1. This function runs till the round:Table is less than maxRounds:Table. 
-    2. Game manager gets the synchronized access on table
-    3. Wait till the roundCards:Table is not equal to four.
-    4. after that 
-    4.1 It finds the round winner.
-    4.2 update the roundsWon:Player. 
-    4.3 Sleep for some time. 
-    4.4 Display the round winner name and round number
-    4.5 clears the roundCards:Table 
-    4.6 increments the round:Table 
-    4.7 if round:Table is less or equal to  maxRounds:Table then 
-        4.7.1 Set the players turn for next round 
-        4.7.2 Set currenturn:Table to 1
-        4.7.3 Display the the message that shows that new round begins with round number.
-   4.8 after that Notify to others 
-   4.9 After completing all rounds it computes
-   4.9.1 Game winner
-   4.9.2 Display the game winner name
-   4.9.3 Display the game is over.
-   */
+{ 
+Player round_Winner,game_Winner;
+
 } // end of run
 	Player gameWinner() 
         {
